@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    background-color:black;
+  }
+  h2 {
+    color:orange;
+    text-align:center;
+    padding:20px;
+    font-size:30px;
+  }
+  .input-container {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+  }
+  #number {
+    color:white;
+    margin: 5px auto;
+    font-size:20px;
+  }
+  #convert-btn {
+    color:black;
+    background-color:grey;
+    margin:0 auto;
+    font-size:15px;
+  }
+  #convert-btn:hover {
+    background-color:lightgrey;
+  }
+  #convert-btn:active {
+    background-color:white;
+  }
+  #output {
+    margin: 10px auto;
+    color:white;
+    font-size:20px;
+  }
